@@ -38,16 +38,5 @@ uvicorn app.main:app --reload
 
 2. Access the Documentation:
 ## Open your browser and navigate to:
-### Swagger UI: http://127.0.0.1:8000/docs
-### ReDoc: http://127.0.0.1:8000/redoc
-
-dhananjaylab-development-bot/
-├── app/
-│   ├── __init__.py
-│   ├── main.py          # FastAPI entry point & routes
-│   ├── database.py      # Neo4j connection logic
-│   ├── models.py        # Pydantic schemas
-│   └── services.py      # Core business logic (schema & node fetching)
-├── .env                 # Environment variables (URI, User, Password)
-├── requirements.txt     # Dependencies
-└── README.md            # Documentation
+Swagger UI: http://127.0.0.1:8000/docs
+ReDoc: http://127.0.0.1:8000/redoc
